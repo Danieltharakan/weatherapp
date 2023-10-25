@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+   
+    background-image: url("https://www.sknis.gov.kn/wp-content/uploads/2017/07/Weather-Blog-Image.jpg");
+   background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+   
+}
+.card1{
+    width: 90%;
+    max-width:470px;
+    background: linear-gradient(135deg,rgba(0, 204, 255, 0.729),rgba(0, 255, 195, 0.668));
+    color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+   
+    
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #e4f2eae7;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #e4e3e3db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 18px;
+}
+.wheather-icon{
+    width: 170px;
+    margin-top: 30px;
+
+}
+.wheather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.wheather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:40px;
+    margin-right: 10px;
+}
+.humidity,.wind{
+    font-size: 28px;
+    margin-top: 6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-right: 10px;
+    font-size: 14px ;
+    margin-top: 10px;
+    display: none;
+    color: rgba(232, 9, 9, 0.812);
+}
+.heading h2{
+    color: rgb(32, 78, 213);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+.heading{
+  margin-bottom: 40px;
+    align-items: center;
+   
+}
+.heading p{
+    color: blueviolet;
+    font-family: italic;
+}
+.container1{
+    background-color: rgba(5, 26, 54, 0.707);
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+.cap{
+    margin-top: -20px;
+}
